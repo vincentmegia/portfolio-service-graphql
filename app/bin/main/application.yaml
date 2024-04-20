@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev
+
+application:
+  name: Portfolio graphql service
+  version: 1.0.0-dev.release

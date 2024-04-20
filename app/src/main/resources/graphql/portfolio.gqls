@@ -1,0 +1,17 @@
+type User {
+  id: String
+  lastname: String
+  firstname: String
+}
+
+type Portfolio {
+  id:  String
+  name: String
+  user: User
+}
+
+
+# Root query
+type Query {
+  allPortfolios: [Portfolio]!
+}
